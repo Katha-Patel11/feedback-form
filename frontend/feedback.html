@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Feedback Form</h2>
+        <form action="#" method="POST">
+          <label>Username </label><br />
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter your username"
+            class="inputs"
+            id="username"
+            required
+          /><br /><br />
+
+          <label>E-mail </label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            class="inputs"
+            id="email"
+            required
+          /><br /><br />
+
+          <label>Message </label><br />
+          <textarea
+            type="text"
+            name="message"
+            placeholder="Enter your message"
+            class="inputs"
+            id="message"
+            required
+          ></textarea
+          ><br /><br />
+
+          <label>Rating </label><br />
+          <input
+            type="number"
+            name="rating"
+            min="1"
+            max="5"
+            class="inputs"
+            id="rating"
+            required
+          /><br /><br />
+
+          <button id="send">Send</button><br /><br />
+        </form>
+
+        <script src="feedback.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
